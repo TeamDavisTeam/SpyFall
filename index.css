@@ -1,0 +1,35 @@
+* {
+  /* background-color: rgb(99, 109, 171); */
+}
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0px;
+  text-align: center;
+  color: rgb(120, 119, 141);
+  font-size: 90px;
+}
+a {
+  color: azure;
+  margin-left: 10px;
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+#headerimg {
+  max-height: 42%;
+}
+
+a:hover {
+  background-color: rgb(120, 119, 141);
+  color: white;
+}
+.active {
+  position: absolute;
+  z-index: -1111;
+  text-decoration: none;
+
+  border: 0;
+}
