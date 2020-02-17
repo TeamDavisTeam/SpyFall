@@ -1,35 +1,62 @@
-* {
-  /* background-color: rgb(99, 109, 171); */
+*{
+  font-family: 'Cinzel', serif;
+margin: 0;
+padding: 5px;
 }
-body {
-  margin: 0;
+body{
+  background-color: rgb(66, 66, 143) !important;
 }
-h1 {
-  margin: 0px;
+h1{
+  font-size: 30px;
+}
+.leftnav{
+  font-size: 15px;
+ margin: 0px;
+ padding: 0 !important;
+ height: 100% !important;
+ line-height: 0px !important;
+
+}
+.navbar-brand{
+
+  font-weight: 900;
+ 
+
+}
+a.nav-link{
+
+  font-weight: 800;
+
+
+}
+.setup{
+
+
+  color:   whitesmoke;
+  font-size: 1rem;
+  border-style: solid;
+
+
+}
+.gamesetupHeaders,th{
+
   text-align: center;
-  color: rgb(120, 119, 141);
-  font-size: 90px;
+  font-size: 2rem;
+  color: crimson;
+
 }
-a {
+.location{
+
   color: azure;
-  margin-left: 10px;
-  text-align: center;
-}
-li {
-  display: inline-block;
-}
-#headerimg {
-  max-height: 42%;
-}
 
-a:hover {
-  background-color: rgb(120, 119, 141);
-  color: white;
 }
-.active {
-  position: absolute;
-  z-index: -1111;
-  text-decoration: none;
+table td{
 
-  border: 0;
+  font-size: 2rem;
+
+}
+.locationLabels label{
+background-color: rgb(199, 212, 223) !important;
+border-style: solid 2px red;
+
 }

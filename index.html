@@ -5,33 +5,152 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Whish You Were Here</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
   </head>
+
   <body>
-    <div style="position: static;">
-      <img
-        id="headerimg"
-        style="position: absolute; left: 0px;
-      top: 0px; z-index: -1;"
-        src="https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg"
-        alt="no pic"
-        width="100%"
-      />
-      <ul>
-        <li>
-          <a class="active" href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="addPlayers.html">Add Players</a>
-        </li>
-        <li>
-          <a href="addLocations.html">Add Locations</a>
-        </li>
-        <li>
-          <a href="index.html">Videos</a>
-        </li>
-      </ul>
-      <h1>Wish You Were Here</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Wish You Were Here!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Game Setup
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="Add Locations" href="addLocations.html">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          
+        </ul>
+       
+      </div>
+    </nav>
+
+    <!-- This will need a players playing list and locations list and play button -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h1 class="gamesetupHeaders">Players</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td class="location">Mark</td>
+                <td class="location">MarkSucks@gmail.com</td>
+               
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td class="location">Jacob</td>
+                <td class="location">JacobSucks@Gmail.com</td>
+               
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td class="location">Larry</td>
+                <td class="location">LarrySucks@gmail.com</td>
+                
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <div class="col-sm">
+          <h1 class="gamesetupHeaders">Locations</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Name Of Location</th>
+                <th scope="col"></th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="location" scope="row">Labarotory <button class="btn btn-primary" onclick="" type="button" >Edit</button></th>
+               
+               
+              </tr>
+              <tr>
+                <th class="location" scope="row">Gymnazium<button class="btn btn-primary" onclick="" type="button" >Edit</button></th>
+                
+                
+              </tr>
+              <tr>
+                <th class="location" scope="row">Footbal Field<button class="btn btn-primary" onclick="" type="button" >Edit</button></th>
+               
+               
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
+    
+    <button onclick="window.location.href = 'gameView.html';" type="button" class="btn btn-primary btn-lg btn-block">Play Game</button>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="dtabase.js"></script>
   </body>
+
+
+
+
+
+
+  
+    
+
+  
+
+
+  
+
+
+
+
+
+
+
+
 </html>
