@@ -89,6 +89,10 @@ function deleteLocation(id) {
     }
     
  }
+ for( var i = 0; i < arrayOfLocations.length; i++){ 
+   arrayOfLocations[i].id = i;
+    
+ }
  saveData();
  
 }
@@ -115,3 +119,4 @@ if (typeof Storage !== "undefined") {
   // Sorry! No Web Storage support..
   console.log("Sorry! No Web Storage support..");
 }
+console.log(arrayOfLocations);
