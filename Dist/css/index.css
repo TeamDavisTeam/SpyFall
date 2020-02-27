@@ -1,0 +1,63 @@
+*{
+  font-family: 'Cinzel', serif;
+margin: 0;
+padding: 5px;
+}
+body{
+  background-color: rgb(66, 66, 143) !important;
+}
+h1{
+  font-size: 30px;
+}
+.leftnav{
+  font-size: 15px;
+ margin: 0px;
+ padding: 0 !important;
+ height: 100% !important;
+ line-height: 0px !important;
+
+}
+.navbar-brand{
+
+  font-weight: 900;
+ 
+
+}
+a.nav-link{
+
+  font-weight: 800;
+
+
+}
+.setup{
+
+
+  color:   whitesmoke;
+  font-size: 1rem;
+  border-style: solid;
+
+
+}
+.gamesetupHeaders,th{
+
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(123, 233, 205);
+
+}
+.location{
+
+  color: azure;
+
+}
+table td{
+
+  font-size: 30px;
+  font-weight: 800;
+
+}
+.locationLabels label{
+background-color: rgb(57, 180, 20) !important;
+border-style: solid 2px red;
+
+}
